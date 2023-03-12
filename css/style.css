@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap');
+ 
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+background:#ffff52 ;
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+}
+
+.header{
+width:100%;/*É usado para*/
+background:black;
+display:flex;
+justify-content:space-around;
+align-items:center; /*Está sendo usado para alinhar de acordo com a altura e não com a largura*/
+padding: 10px;
+}
+
+.cabecalho{
+display:flex;
+align-items: center;
+}
+
+.logo{
+height:50px;
+width: 50px;
+background: white;
+border-radius: 50px;
+}
+#img{
+width: 50px;
+height: 50px;
+}
+
+.logo-texto{
+color:white;
+margin: 0 10px;
+font-family: 'Roboto', sans-serif;
+}
+
+.Menu li{ /*Para funcionar, temos que marcar o LI */
+display: inline-block; 
+}
+
+.Menu li a{
+font-size: 20px;
+margin: 0px 10px;
+text-decoration:none;
+color: white;
+padding: 10px;
+border-radius:8px;
+box-shadow: 1px 1px white;
+}
+
+.Menu li a:hover{ /*É responsável por colocar o efeito assim que o mause esta em cima das opções: CONTATO e SOBRE */
+background: white;
+color: black;
+}
+
+#Bloco1{
+text-align: center; /*alinha o texto no centro do bloco*/
+margin: 8px;
+line-height: 70px;
+background: white;
+color:black;
+height: 150px;
+width: 150px;
+border-radius: 15px;
+display: inline-block; /*É usado para deixar os blocos na mesma linha*/
+box-shadow: 5px 5px 10px black;
+}
+
+#insta-bloco{
+    margin-top: 30px;
+    width: 70px;
+    height: 70px;
+}
+#insta{
+    text-decoration: none;
+    color: black;;
+}
+
+#Bloco2{
+    text-align: center; /*alinha o texto no centro do bloco*/
+    margin: 8px;
+    line-height: 70px;
+    background: white;
+    color:black;
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+    display: inline-block; /*É usado para deixar os blocos na mesma linha*/
+    box-shadow: 5px 5px 10px black;
+}
+#Bloco3{
+    text-align: center; /*alinha o texto no centro do bloco*/
+    margin: 8px;
+    line-height: 70px;
+    background: white;
+    color:black;
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+    display: inline-block; /*É usado para deixar os blocos na mesma linha*/
+    box-shadow: 5px 5px 10px black;
+}
+
+#whats-bloco{
+    margin-top: 30px;
+    width: 70px;
+    height: 70px;
+}
+#whats{
+    text-decoration: none;
+    color: black;
+}
+
+
+/*-----------------------Sobre a empresa------------------------*/
+
+
+#sobre{ /**/
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+#sobre-nos{
+background: white;
+border-radius: 15px;
+padding: 50px;
+margin:auto ;
+box-shadow: 5px 5px 15px black;
+width: 600px;
+}
+#info{
+    display:flex;
+    justify-content: space-around;
+}
+
+#text-rolo{
+    margin: 2px;
+    
+}
+
+#rolo{
+    width: 100px;
+    height: 100px;
+    margin: -55;
+}
+#img-rolo{
+    display:flex;
+    justify-content: center;
+    animation: jumping 3s linear infinite;
+}
+@keyframes jumping {
+    from{transform: translateY(-20px);}
+    50%{transform: translateY(0);}
+    to{transform: translateY(-20px);}
+}
+
+#text-rolo{
+    margin: 40px;
+    
+}
+
+#titulo-text{
+    font-family: 'EB Garamond', serif;
+}
+
+#li{
+   display: flex;
+   justify-content: center;
+    
+}
+#hr-li{
+    width: 50%;
+}
+#txt-contato{
+    display:flex ;
+    justify-content: center;
+}
+
+/* -------------------- FOOTER e COPYRIGHT --------------------   */
+
+#blocks{
+    display: flex;
+    justify-content: center;
+    
+}
+#space{
+    flex-grow: 1;
+}
+
+.contato{
+    font-family: 'Roboto', sans-serif;
+}
+
+footer{
+    background: black;
+    width: 100%;
+    flex-grow: 1;
+    justify-content:center ;
+    
+}
+
+#copy{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
